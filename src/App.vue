@@ -3,8 +3,11 @@
     <router-link to="/">Home</router-link>
     |
     <router-link to="/about">About</router-link>
+    |
+    <router-link to="/test">Test</router-link>
   </nav>
   <router-view />
+  <footer><H1>THIS IS FOOOOOOOOOTSer</H1></footer>
 </template>
 
 <style>
