@@ -13,6 +13,8 @@
     <router-link to="/logout">Log out</router-link>
     |
     <router-link to="/posts">All Posts</router-link>
+    |
+    <router-link to="/posts/new">New Post</router-link>
   </nav>
   <router-view />
   <footer><h1>THIS IS FOOOOOOOOOTSer</h1></footer>
