@@ -5,6 +5,12 @@
     <router-link to="/about">About</router-link>
     |
     <router-link to="/test">Test</router-link>
+    |
+    <router-link to="/signup">Sign Up</router-link>
+    |
+    <router-link to="/login">Log in</router-link>
+    |
+    <router-link to="/logout">Log out</router-link>
   </nav>
   <router-view />
   <footer><H1>THIS IS FOOOOOOOOOTSer</H1></footer>
