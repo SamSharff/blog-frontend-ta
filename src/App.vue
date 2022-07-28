@@ -15,7 +15,7 @@
     <router-link to="/posts">All Posts</router-link>
   </nav>
   <router-view />
-  <footer><H1>THIS IS FOOOOOOOOOTSer</H1></footer>
+  <footer><h1>THIS IS FOOOOOOOOOTSer</h1></footer>
 </template>
 
 <style>
