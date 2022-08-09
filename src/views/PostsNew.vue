@@ -9,7 +9,7 @@ export default {
     };
   },
   methods: {
-    submit: function () {
+    createPost: function () {
       axios
         .post("/posts", this.newPostParams)
         .then((response) => {
@@ -26,7 +26,7 @@ export default {
 
 <template>
   <div class="new-post">
-    <form v-on:submit.prevent="submit()">
+    <form v-on:submit.prevent="createPost()">
       <h1>Creat a new post</h1>
       <ul>
         <li v-for="error in errors" v-bind:key="error">{{ error }}</li>
